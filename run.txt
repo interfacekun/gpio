@@ -1,0 +1,5 @@
+go
+hello lirc one!
+hello lirc one!
+hello lirc one!
+hello lirc one!

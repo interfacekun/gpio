@@ -1,0 +1,38 @@
+shumaguan2.py:12: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(DS, GPIO.OUT)
+shumaguan2.py:13: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(STCP, GPIO.OUT)
+shumaguan2.py:14: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(SHCP, GPIO.OUT)
+shumaguan2.py:13: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(STCP, GPIO.OUT)
+shumaguan.py:12: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(DS, GPIO.OUT)
+shumaguan.py:13: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(STCP, GPIO.OUT)
+shumaguan.py:14: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(SHCP, GPIO.OUT)
+Recording WAVE '/root/mypython/nihao.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+Recording WAVE '/root/mypython/nihao.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+Recording WAVE '/root/mypython/nihao.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+Recording WAVE '/root/mypython/nihao.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+Traceback (most recent call last):
+  File "/root/mypython/ra.py", line 36, in <module>
+    str=json.dumps(json_resp['result'],ensure_ascii=False)
+KeyError: 'result'
+Recording WAVE '/root/mypython/nihao.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+overrun!!! (at least 123.585 ms long)
+Traceback (most recent call last):
+  File "/root/mypython/ra.py", line 36, in <module>
+    str=json.dumps(json_resp['result'],ensure_ascii=False)
+KeyError: 'result'
+Recording WAVE '/root/mypython/nihao.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+Traceback (most recent call last):
+  File "/root/mypython/ra.py", line 36, in <module>
+    str=json.dumps(json_resp['result'],ensure_ascii=False)
+KeyError: 'result'
+Unhandled exception in thread started by <function getTemperature at 0x76897df0>
+Traceback (most recent call last):
+  File "./nokiaimg.py", line 98, in getTemperature
+    fcntl.flock(f, fcntl.LOCK_EX)
+NameError: global name 'f' is not defined
